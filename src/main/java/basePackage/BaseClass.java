@@ -28,7 +28,7 @@ public class BaseClass {
     public void openBrowser() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(url);
+
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
     }
