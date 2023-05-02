@@ -36,7 +36,7 @@ public class BaseClass {
     @AfterMethod
     public void closeBrowser() {
         driver.close();
-        driver.quit();
+        //driver.quit();
     }
     public void openUrl(String url){
         driver.get(url);
